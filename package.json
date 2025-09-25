@@ -2,13 +2,8 @@
   "name": "jobhunt-email-api",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vercel dev",
-    "start": "node api/send-email.js"
-  },
+  "license": "MIT",
   "dependencies": {
-    "@vercel/node": "3.2.20",
     "nodemailer": "6.9.14"
   }
 }
